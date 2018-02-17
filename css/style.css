@@ -1,0 +1,127 @@
+html {
+  background-color: #3399CC;
+  font-family: Lucida Sans Unicode;
+  color: white;
+}
+header {
+  background-color: #3399CC;
+  padding-left: 250px;
+  margin-top: 25px;
+  font-size: 25px;
+}
+main {
+  margin-top: 25px;
+}
+.city_list {
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 0;
+  width: 60%;
+  margin: 0 auto;
+  height: 330px;
+}
+.city_list li {
+  padding-top: 5px;
+  display: inline-block;
+  font-size: 20px;
+  border: 3px solid white;
+  opacity: 1;
+}
+.Lisbon {
+  width: 50.2%;
+  height: 25%;
+  background-color: #7BBEDD;
+  box-sizing: border-box;
+  margin-right: -2px;
+}
+.Paris {
+  width: 25%;
+  height: 25%;
+  background-color: #33CCCC;
+  box-sizing: border-box;
+  margin-right: -2px;
+}
+.Belgrade {
+  width: 25.2%;
+  height: 25%;
+  background-color: #996699;
+  box-sizing: border-box;
+}
+.Moscow {
+  width: 25%;
+  height: 25%;
+  background-color: #C24747;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+.Tel_Aviv {
+  width: 25.5%;
+  height: 25%;
+  background-color: #E2674A;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+.Cair {
+  width: 25.2%;
+  height: 25%;
+  background-color: #FFCC66;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+.New_York {
+  width: 25%;
+  height: 25%;
+  background-color: #99CC99;
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.New_Delhi {
+  width: 25%;
+  height: 25%;
+  background-color: #669999;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+.San_Francisco {
+  width: 50.4%;
+  height: 25%;
+  background-color: #CC6699;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+.Tokio {
+  width: 25%;
+  height: 25%;
+  background-color: #339966;
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.Sydney {
+  width: 100%;
+  height: 25%;
+  background-color: #666699;
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.index {
+  font-size: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 300px;
+}
+.city_list:hover li {
+  opacity: 0.5;
+}
+.city_list li:hover {
+  opacity: 1;
+}
+*{transition: all .1s ease-in;}
